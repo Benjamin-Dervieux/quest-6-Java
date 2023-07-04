@@ -32,9 +32,9 @@ public class Wilder {
     }
 
 public String firstnameAndAge() {
-    String message = " et je suis ";
+    String message = " ";
     if (this.isAware()) {
-        return message + "Aware !!!";
+        return message + "et je suis Aware !!!";
     } else {
         return message + "je ne suis pas Aware";
     }
